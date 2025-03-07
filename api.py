@@ -1,7 +1,7 @@
 import pyttsx3, PyPDF2
 
 # Open the PDF file (QWQWQ.PDF)
-pdfreader = PyPDF2.PdfReader(open('qwqwq.pdf', 'rb'))
+pdfreader = PyPDF2.PdfReader(open('story.pdf', 'rb'))
 speaker = pyttsx3.init()
 
 # Empty string to hold the entire text
